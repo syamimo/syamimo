@@ -79,7 +79,7 @@ nav a:hover {
   margin: 0 auto;
   text-align: center;
   margin-top: 50px;
-  background-image: url('img/cat-dog.jpg');
+  background-image: url('/img/cat-dog.jpg');
   background-size: cover;
   background-position: center;
   padding: 150px 0;
