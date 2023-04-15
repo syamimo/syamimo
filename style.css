@@ -1,0 +1,272 @@
+/* Global Styles */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #FFFAF5;
+
+}
+
+header {
+  align-items: center;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #FFFAF5;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav ul li input[type="text"] {
+  width: 200px;
+  padding: 5px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  background: #f1f1f1 url('search-icon.png') no-repeat 10px center;
+  background-size: 20px 20px;
+  margin-left: 10px;
+}
+
+nav ul li input[type="text"]:focus {
+  outline: none;
+  box-shadow: 0 0 3px rgba(0,0,0,0.3);
+}
+
+nav a {
+  text-decoration: none;
+  color: #57557D;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #BEBDD3;
+}
+
+.fa-search{
+   color: #57557D;
+}
+
+.fa-search:hover {
+  color: #BEBDD3;
+  cursor: pointer;
+}
+
+.hero {
+  max-width: 2000px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 50px;
+  background-image: url('img/cat-dog.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+}
+
+.hero h1 {
+  font-size: 6rem;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 3rem;
+  color: #fff;
+  text-align: left;
+  margin-left: 400px;
+}
+
+.btn {
+  background-color: #302F51;
+  color: #fff;
+  margin-right: 590px;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: #302F51;
+}
+
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 50px 20px;
+}
+
+.features {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.feature {
+  max-width: 300px;
+  text-align: center;
+}
+
+.feature img {
+  max-width: 50%;
+  margin-bottom: 20px;
+}
+
+.feature h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: #302F51;
+
+}
+
+.feature p {
+  font-size: 1rem;
+  color: #555;
+}
+
+.divider {
+  border: none;
+  height: 1px;
+  background-color: #302F51;
+  margin-top: 100px;
+  margin-bottom: 50px
+}
+
+.cta {
+  background-color: #FFFAF5;
+  padding: 50px;
+  text-align: center;
+}
+
+.cta h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: #302F51;
+}
+
+.cta p {
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+  color: #555;
+
+}
+
+.cta input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  border-color: #302F51;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.cta button {
+  background-color: #F88D58;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.cta button:hover {
+  background-color: #302F51;
+  color: #fff;
+}
+
+.shop-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.product {
+  width: calc(33.33% - 10px); /* width of each product */
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.product img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.product h3 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.product .price {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #f57c00;
+  margin-bottom: 10px;
+}
+
+.shop .btn {
+  display: block;
+  padding: 10px 20px;
+  margin: 10px 0px;
+  background-color: #302F51;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.shop .btn:hover {
+  background-color: #BEBDD3;
+  color: #fff;
+}
+
+.about-section {
+  margin: 50px auto;
+  max-width: 800px;
+  text-align: center;
+}
+
+.about-section h1 {
+  font-size: 36px;
+  margin-bottom: 30px;
+  color: #302F51;
+}
+
+.about-section p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: #FFFAF5;
+  padding-top: 100px;
+  padding-bottom: 0px;
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+}
+
+footer p {
+  margin: 0;
+}
